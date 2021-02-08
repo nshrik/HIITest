@@ -1,0 +1,86 @@
+﻿@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+     
+    .logincontainer {
+        width: 90% !important;
+    }
+
+    /*#txtPhysicianName, .dd_chk_select {
+        width: 120px !important;
+    }*/
+
+    .editorWidth tbody tr td.dx table {
+        width: 555px !important;
+    }
+
+    .input, input[type="text"], input[type="password"], select, textarea {
+        margin-left: 0 !important;
+    }
+
+    .input-sm {
+        width: 120px !important;
+    }
+
+    .select-sm {
+        width: 130px !important;
+    }
+
+    .width710 {
+        width: 710px;
+    }
+
+    .sm-scroll {
+        overflow: auto;
+        overflow-y: hidden;
+    }
+
+    .sm-hvscroll {
+        height: 500px;
+        overflow: auto;
+    }
+
+    .fileUploaderStyle {
+        width: 90px !important;
+        ;
+    }
+
+    span.select2-container--open.select2-container--below.select2-container--default.select2-container.select2, {
+        width: 100px !important;
+    }
+
+    span.select2-container--open.select2-container--below.select2-container--default.select2-container.select2, span.select2-container--default.select2-container.select2 {
+        margin: 0 !important;
+    }
+
+    .width_110 {
+        width: 110px !important;
+    }
+
+    .width_120 {
+        width: 120px !important;
+    }
+
+    .width880 {
+        width: 880px;
+    }
+   
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+
+    .input-sm {
+        width: 192px !important;
+    }
+
+    .select-sm {
+        width: 192px !important;
+    }
+}
+@media screen and (max-width: 1366px) {
+     .input-sm {
+        width: 150px!important;
+    }
+
+    .select-sm {
+        width: 162px!important;
+    }
+}

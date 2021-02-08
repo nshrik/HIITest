@@ -1,0 +1,488 @@
+/****-----------------Contract Screen CSS----------***************/
+
+.add_btn {
+    margin-top: 2px;
+    color: #005993;
+    font-size: 18px;
+}
+
+.disable-btn {
+    color: #d1d6da !important;
+}
+
+.add_btn:hover {
+    font-size: 18px;
+}
+
+.disable-btn:hover {
+    font-size: 14px;
+}
+
+.containerRight {
+    margin-top: 35px !important;
+}
+
+.contr_end_date {
+    width: 7.222222% !important;
+}
+
+.ui-dialog .ui-dialog-title {
+    text-align: left !important;
+}
+
+.enable-profile-hyperlink {
+    text-decoration: none !important;
+    outline: none !important;
+    color: #0000FF !important;
+    cursor: pointer;
+}
+
+.disable-profile-hyperlink {
+    text-decoration: none !important;
+    outline: none !important;
+    background-color: #EEE;
+    cursor: unset;
+}
+
+.fileUploaderStyle {
+    display: inline !important;
+    overflow: hidden;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background-position: initial;
+    font-weight: normal /*{fwDefault}*/;
+    color: #555555 /*{fcDefault}*/;
+    background-image: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    background-repeat: repeat;
+}
+
+.ui-accordion .ui-accordion-header {
+    padding: .8em .5em .8em .7em;
+}
+
+.accord_parent select.profileDescriptions {
+    position: absolute;
+    z-index: 1;
+    left: 33.5555%;
+    top: 2px;
+}
+
+div.dd_chk_select {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+    body.noscroll {
+        position: fixed;
+        overflow: hidden;
+    }
+
+.progressModal {
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: Black;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    -moz-opacity: 0.8;
+}
+
+.progressCenter {
+    z-index: 1000;
+    margin: 300px auto;
+    padding: 10px;
+    width: 130px;
+    background-color: White;
+    border-radius: 10px;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+}
+
+    .progressCenter img {
+        height: 128px;
+        width: 128px;
+    }
+
+.brdr_rht {
+    border-right: 1px solid #DDD;
+}
+
+.GridCellCenter {
+    text-align: center !important;
+}
+
+.ui-autocomplete {
+    max-height: 250px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+
+    .ui-autocomplete li {
+        line-height: 22px;
+    }
+
+select:disabled {
+    -webkit-appearance: none;
+}
+
+.closePopup {
+    float: right;
+}
+
+
+
+@media (max-width: 767px) {
+    .marginnill input, .marginnill input[type="text"], .marginnill input[type="password"], .marginnill select, .marginnill textarea {
+        width: 100% !important;
+    }
+
+    .prdvty_sec input, .prdvty_sec input[type="text"], .prdvty_sec input[type="password"], .prdvty_sec select, .prdvty_sec textarea {
+        width: 100% !important;
+    }
+
+    .prdvty_sec span {
+        width: 100% !important;
+    }
+
+    .input, input[type="text"], input[type="password"], select, textarea {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+}
+
+table.lblfloatnone tr td label {
+    float: none !important;
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 0em 1em;
+    border-top: 0;
+    overflow: auto;
+}
+
+.accord_parent {
+    font-size: 1em;
+    position: relative;
+    margin: 3px;
+}
+
+
+.CurHand {
+    cursor: pointer !important;
+}
+
+.arrownone select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.validateSummary ul {
+    padding-left: 5px;
+}
+
+.validateSummary li {
+    text-align: left;
+    list-style: none;
+}
+
+.modalPopup {
+    z-index: 100001 !important;
+}
+
+    .modalPopup .body {
+        margin: 10px;
+    }
+/*control css*/
+.inlineTable {
+    border: 1px solid #d5d5d5;
+}
+
+
+.colspanhidden {
+    visibility: hidden;
+}
+
+.border-none th, .border-none td {
+    border: 0px !important;
+}
+
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+.no-table-responsive {
+    min-height: .01%;
+    overflow-x: initial;
+}
+
+.contractchange:hover {
+    background-color: lightblue !important;
+}
+
+.adjAnnualamt {
+    text-align: right !important;
+}
+
+table.cstm_td tr td {
+    padding: 0px !important;
+}
+
+/******************************************************/
+
+/*angular multiselect for  auto width start*/
+.autowidth-multiselect .btn-group {
+    width: 100% !important;
+}
+
+.autowidth-multiselect button {
+    width: 100%;
+    text-align: left;
+}
+
+.autowidth-multiselect .btn .caret {
+    float: right;
+    margin-top: 7px;
+}
+/*angular multiselect for  auto width end*/
+/*
+.newmastercontract {
+	color: #cdcdcd !important;
+}*/
+table > thead > tr > th.align-middle {
+    vertical-align: middle;
+}
+/*custom tabs */
+.cstm_tabs {
+    list-style: none;
+    margin: 0 0px 0;
+    background-color: #005993;
+    padding: 0.6em .2em 0;
+    height: 29px;
+    margin-bottom: 5px;
+}
+
+    .cstm_tabs li {
+        display: inline;
+        border: solid;
+        border-width: 0;
+        margin: 1px 0 0;
+        padding: 5px 0;
+        background: #00a859;
+    }
+
+        .cstm_tabs li > i {
+            padding-left: 8px;
+        }
+
+        .cstm_tabs li a {
+            padding: .5em 1em;
+            color: #FFF;
+        }
+
+            .cstm_tabs li a:hover {
+                color: #005993;
+                background: #FFF;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            .cstm_tabs li a.selected {
+                background: #FFF !important;
+                color: #005993 !important;
+            }
+
+                .cstm_tabs li a.selected.new {
+                    background: #f5f5f5 !important;
+                    color: #548baf !important;
+                }
+
+
+/*custom tabs end*/
+label.plain-label {
+    font-weight: 400;
+}
+
+.im_loading {
+    /* position: relative; */
+    /* top: 50%; */
+    /* left: 10%; */
+    /* margin: -35px 0px 0px -35px; */
+    background: #fff url(../themes/base/images/h2loader.gif) no-repeat center center;
+    /* width: 70px; */
+    height: 264px;
+    z-index: 9999;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    opacity: 0.8;
+}
+
+.im_loading-second {
+    background: #fff url(../themes/base/images/busy.gif) no-repeat center center;
+    /* width: 70px; */
+    height: 160px;
+    z-index: 9999;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 0px;
+    /* border-radius: 10px; */
+    -moz-box-shadow: 1px 1px 3px #000;
+    /* -webkit-box-shadow: 1px 1px 3px #000; */
+    /* box-shadow: 1px 1px 3px #000; */
+    opacity: 0.8;
+}
+
+.im_loading-third {
+    /* position: relative; */
+    /* top: 50%; */
+    /* left: 10%; */
+    /* margin: -35px 0px 0px -35px; */
+    background: #fff url(../themes/base/images/busy.gif) no-repeat center center;
+    /* width: 70px; */
+    height: 140px;
+    z-index: 9999;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 0px;
+    /* border-radius: 10px; */
+    -moz-box-shadow: 1px 1px 3px #000;
+    /* -webkit-box-shadow: 1px 1px 3px #000; */
+    /* box-shadow: 1px 1px 3px #000; */
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+    .form-inline .radio label, .form-inline .checkbox label {
+        padding-left: 5px;
+    }
+
+        .form-inline .radio label span, .form-inline .checkbox label span {
+            color: #333;
+            font-size: 12px;
+            padding-left: 5px;
+        }
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 12rem;
+    width: auto;
+    padding: .5rem 5px;
+    margin: 0 0 0;
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0;
+    white-space: nowrap;
+}
+
+ul li a:hover {
+    background: transparent;
+    color: #005993;
+}
+
+.form-inline {
+    display: initial;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    left: 0;
+}
+
+.autowidth-multiselect button {
+    width: 100%;
+    text-align: left;
+    border: 1px solid #DDD;
+    padding: 5px 5px;
+    color: #333;
+}
+
+a {
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    margin-left: 0 !important;
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: .2em 0 !important;
+}
+
+.ui-widget-content a {
+    color: #666666;
+}
+
+.autowidth-multiselect.dropdown-rightalign .btn-group > ul.dropdown-menu {
+    position: absolute !important;
+    right: 0px !important;
+    left: initial !important;
+    height: 140px !important;
+}
+
+.dropdown-menu #selectAll {
+    float: left;
+}
+
+.dropdown-menu #deselectAll {
+    float: right;
+}
+
+.FTE-modal-Textbox-Width {
+    width: 150px !important;
+}
+
+.autowidth-multiselect .btn.focus, .autowidth-multiselect .btn:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25) !important;
+}
+
+.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    background: none !important;
+    border: none !important;
+}
+
+    .disabled i {
+        color: #d1d6da !important;
+    }
+
+.onError {
+    border-color: red !important;
+}
+
+    .onError:focus {
+        border: 1px solid #cedee8 !important;
+    }

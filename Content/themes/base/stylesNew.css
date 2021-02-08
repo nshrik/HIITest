@@ -1,0 +1,91 @@
+menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+.ddmenu {
+  display: block;
+  padding: 0 15px;
+  cursor: pointer;
+  outline: none;
+  color: #8aa8bd;
+}
+
+    #topHeader_ddmenu > li {
+        padding:0 5px;
+    }
+
+.ddmenu li { display: block; position: relative; float: left; font-size: 1.45em; text-shadow: 1px 1px 0 #fff; border-right: 1px solid #dae0e5;}
+
+.ddmenu li a {
+  display: block;
+  float: left;
+  padding: 0 12px;
+  text-decoration: none;
+  color: #4e4e4e;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  font:normal 12px arial;
+  line-height:40px;
+}
+.ddmenu li:hover > a { color: #fff; text-shadow:none;}
+
+.ddmenu ul {
+  position: absolute;
+  top: 42px;
+  width: 220px;
+  background: #fff;
+  display: none;
+  margin: 0;
+  padding: 7px 0;
+  list-style: none;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index:9999;
+}
+
+/* tooltip arrow */
+.ddmenu ul:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 8px;
+  border-width: 0 8px 8px 8px;
+  border-style: solid;
+  border-color: #fff transparent; 
+}
+
+.ddmenu ul:before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 4px;
+  border-width: 0 10px 10px 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1) transparent;  
+}
+
+.ddmenu ul li { 
+  display: block; 
+  width: 100%; 
+  font-size: 0.9em; 
+}
+
+.ddmenu ul li a {
+  display: block;
+  padding: 6px 7px;
+  line-height: 1.4em;
+  text-shadow:none;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.ddmenu li:hover {
+  background: url(images/menuHover.jpg) top left repeat-x #105Db9;
+}
